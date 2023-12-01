@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    background-color: rgb(102, 125, 125);
+}
+
+.box{
+    position: relative;
+    width: 450px;
+    min-height: 550px;
+    border-radius: 30px;
+    background-color:  rgb(36, 24, 24);
+    box-shadow: 25px 25px 75px rgba(20, 20, 20, 0.25),
+    10px 10px 70px rgba(0, 0, 0, 0.25,) 
+    inset 5px 5px 10px rgba(0, 0, 0, 0.5),
+    inset 5px 5px 20px rgba(255, 255, 255, 0.2),
+    inset -5px -5px 15px rgba(0, 0, 0, 0.75);
+    /* overflow: hidden; */
+
+}
+
+.container {
+    display:block;
+    justify-content: left;
+    align-items: center;
+    max-width:100%;
+    height: 300px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+h2{
+    font-size:35px;
+    padding-top:20px;
+    color: white;
+    text-align: center;
+}
+
+.form1{
+    max-width:500px;
+    display: flex;
+    margin: 3rem 20px ;
+
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    margin: 8px 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: large ;
+    cursor: pointer;
+
+}
+
+.btn{  
+    position:absolute;
+    bottom: 10%;
+    left: 45%;
+    margin-bottom: 18px;
+    z-index: 1;
+}
+
+.betn{
+    width: 50px;
+    text-align: center;
+    font-size: 12px;
+    padding:10px;
+    margin-left:-1%;
+    position:relative;
+    left: 57%;
+}
+
+
+.List li{
+    position: relative;
+    right:51px;
+    min-width: 400px;
+    color: white;
+    display: flex;
+    align-items: center;
+    background: rgb(65, 64, 64);
+    margin: 15px 31px;
+    padding: 5px;
+    padding-left:15px;
+    min-height: 40px;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 25px 25px 75px rgba(20, 20, 20, 0.25);
+    
+}
+
+
+
+/* .hidden-form {
+    display:none;
+    margin-top: 20px;
+  } */
